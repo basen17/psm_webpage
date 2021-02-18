@@ -1,1 +1,77 @@
-#rec
+body {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rec {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav {
+    width: 200px; /* Set a width if you like */
+    margin: 5px;
+    float: left;
+}
+  
+.nav a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 10px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+  
+.nav a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+  
+.nav a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+#content {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 390px;
+    padding: 20px;
+    background-color: cornsilk;
+    color: black;
+    
+}
+
+#footer {
+    clear: both ;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#schemat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+}
+
+#u1 {
+    width: 300px;
+    height: 150px;
+}
+#u2 {
+    width: 300px;
+    height: 150px;
+}
